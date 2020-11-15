@@ -1,0 +1,270 @@
+
+/* alle */
+
+body {background-color: #333333;}
+
+h1 {text-align: center; color: white;}
+
+
+h1 td {font-size: 130%; font-weight: bold; }
+
+
+.postMain {
+    width  : 50%;
+    flex: 1;
+    padding : 20px 0;
+    border-bottom: 1px solid white;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    }
+
+
+/* dinside.php og mainposts */
+
+  .prov{display: flex; flex-direction: column-reverse;}
+
+
+
+
+
+
+  /* Alt med posts: dinside, main og posts */
+
+
+
+          /* answer*/
+
+          .postAnswer{width  : 50%;
+          padding : 20px 0;
+          border-bottom: 1px solid white;
+          margin-right: auto;
+          margin-left: 2ex;
+          position: relative;
+          }
+
+
+          .postAnswer{
+              width: 45%;
+              padding: 1ex;
+              margin-left:auto;
+              margin-right: auto;
+              position: center;}
+
+
+        .postAnswer2x{
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            width: 38%;
+            padding: 20px;
+            border-bottom: 1px solid white;}
+
+
+
+            /* titles */
+
+            .aTitle >a{color: #809fff;
+            width: 100%;
+            text-decoration: underline;
+            font-weight: bold;}
+
+            .aTitle > a:hover {
+            color: #99b3ff;
+            text-decoration: underline;}
+
+
+              .linkTitle > a{
+                  color: #809fff;
+                  width: 100%;
+                  text-decoration: none;
+                  font-size: 200%;
+                  font-weight: bold;}
+
+                  .linkTitle > a:hover {
+                  color: #99b3ff;
+                text-decoration: underline;}
+
+              .postTitle{color: #809fff;
+              width: 100%;
+              font-size: 180%;
+              font-weight: bold;}
+
+              .postTitle > a {color: #809fff;
+              width: 100%;
+              text-decoration: none;
+              font-size: 140%;
+              font-weight: bold;}
+
+              .postTitle > a:hover {
+                color: #99b3ff;
+              text-decoration: underline;
+              }
+
+              .answerTitle{color: #809fff;
+              width: 100%;
+              font-size: 130%;
+              font-weight: bold;}
+
+              .likeButton{
+                margin-top: 10px;
+                border: none;
+                color: rgb(47, 0, 255);
+            }
+            
+            .likeButtonActive{
+                margin-top: 10px;
+                border: none;
+                color: #fff;
+                background-color: rgb(47, 0, 255);
+            }
+            
+
+
+              /*Uid, date mm */
+              #postUid > a{
+                  color: #809fff;
+                  width: 100%;
+                  text-decoration: none;
+                  font-size: 120%;
+              }
+
+              #postUid > a:hover {
+              color: #ccd9ff;
+            text-decoration: underline;}
+
+              #postDate {font-size: 80%;
+              color: #999999}
+
+              #answerUid > a{
+                  color: #809fff;
+                  width: 100%;
+                  text-decoration: none;
+              }
+
+              #answerUid > a:hover {
+              color: #ccd9ff;
+            text-decoration: underline;}
+
+              #answerDate {font-size: 80%;
+              color: #999999}
+
+              #forumb {color: white;}
+
+
+
+              /* Content */
+
+              .postContent {color: white;
+              border: 1px solid #b3b3b3;
+            padding: 1ex;
+            background-color: #595959;}
+
+              .content {color: white;	}
+
+
+
+            /* Likes */
+
+            .countLikes {color: white;}
+
+            .whoLikes {color: white;}
+
+
+
+
+
+  /* Dinside */
+
+  .klump {padding: 1ex; background-color: #4d4d4d; text-align: center;
+  border: 1px solid white; border-radius: 8px;}
+
+  .tekst2{color: pink; text-align: center; width: 50%; margin-left: 15%}
+
+  .postDin {width: 50%;
+  flex: 1;
+  padding : 20px 0;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;}
+
+  .oplys{color: white;}
+
+
+
+/* Kommentarer */
+  .kommentar > a {color: #cccccc;
+  text-decoration: none; }
+
+  .kommentar > a:hover {
+  color: #666666;}
+
+
+
+
+  /* brugere.php */
+
+  .findbruger{text-align: center; color: white;}
+
+  #allebrugere {text-align: center; color: white;}
+
+  .bruger{text-align: center; color: white;}
+  .bruger a{color: white; text-decoration: none; font-size: 80%}
+  .bruger a:hover{color: grey; text-decoration: underline;}
+
+
+
+
+/* overskrift */
+
+h2 {color: #4d79ff;
+font-size: 300%; text-align: center;}
+
+h3 {color: #4d79ff;
+font-size: 150%}
+
+h4 {color: #4d79ff; text-align: center;}
+
+h4 a {text-align: center; color: white;}
+
+
+
+/* formular */
+.formular {color: white; text-align: center;}
+
+
+
+/* links */
+
+.slet {color: white;}
+
+
+/* links */
+
+.sletPost > a{color: white;}
+
+.sletPost >a:hover {color: #ccd9ff;
+text-decoration: underline;}
+
+.oplys{color: white;}
+
+/* tekst */
+
+.tekst{color: white;}
+
+
+
+/* login og andre forms */
+
+#login {position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border: 4px solid black;
+padding: 7ex;
+font-weight: bold;
+font-size: 150%;
+background-color: #b3c6ff;}
+
+#login > a{text-decoration: underline; color: #f2f2f2;}
+#login > a:hover{color: #e6e6e6}
